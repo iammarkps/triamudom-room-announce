@@ -10,7 +10,7 @@ import { customTheme } from '../design/theme'
 const App: NextPage<AppProps> = ({ Component, pageProps }) => (
   <React.StrictMode>
     <Head>
-      <title>ประกาศที่นั่งสอบ | โรงเรียนเตรียมอุดมศึกษา</title>
+      <title>ประกาศห้องเรียน | โรงเรียนเตรียมอุดมศึกษา</title>
     </Head>
     <ThemeProvider theme={customTheme}>
       <CSSReset />
