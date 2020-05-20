@@ -11,6 +11,10 @@ import { customTheme } from '../design/theme'
 
 const App: NextPage<AppProps> = ({ Component, pageProps }) => {
   useEffect(() => {
+    console.log('สร้างโดย พศวัต สุขใส ต.อ.๘๑')
+  }, [])
+
+  useEffect(() => {
     const handleRouteChange = (url) => {
       gtag.pageview(url)
     }
