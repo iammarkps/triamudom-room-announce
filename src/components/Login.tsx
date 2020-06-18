@@ -39,7 +39,7 @@ export const Login = ({ setData }) => {
             actions.setSubmitting(true)
             try {
               const res = await fetch(
-                `https://api.room.triamudom.ac.th:1323/student/${values.stdid}`
+                `https://api.room.triamudom.ac.th/student/${values.stdid}`
               )
 
               data = await res.json()
